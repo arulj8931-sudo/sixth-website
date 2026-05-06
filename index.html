@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Shop</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f1f5f9;
+      text-align: center;
+    }
+
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 20px;
+      display: inline-block;
+      background: white;
+    }
+
+    button {
+      background: green;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h1>My Shopping Website 🛒</h1>
+
+<div class="product">
+  <img src="shirt.jpg" width="150">
+  <h3>Shirt</h3>
+  <p>₹499</p>
+  <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="product">
+  <img src="shoes.jpg" width="150">
+  <h3>Shoes</h3>
+  <p>₹999</p>
+  <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<script>
+function addToCart() {
+  alert("Product added to cart 🛒");
+}
+</script>
+
+</body>
+</html>
